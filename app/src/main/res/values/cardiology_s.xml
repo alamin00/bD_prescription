@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cardiologyDetails">
+
+        <item>acuteniocardial infarction
+        \n * Diet : Liquid \n
+        * Complete(Absolute) Bed Rest. \n
+        * Propped up position \n
+        * Oxygen inhalation 4-6 L/m state and SOS \n
+        * Continuous cardiac monitoring by performing emergency ECG. \n
+        * Tab. Aspirin 75 mg \n
+          4 tabs state PO and then \n
+          0 + 1 + 0 or 1 + 0 + 1 (খাবার পর।) \n
+        * Tab. Clopid 75 mg \n
+          4 tabs state PO and then \n
+          0+1+0 (খাবার পর।) \n
+        * Tab. Pantonix 20 mg \n
+          1 tab state PO and then \n
+          1 + 0 + 1 (খাবার আগে।) \n
+        * TabAtova40mg \n
+          2 tabs state PO and then \n
+          0 + 0 + 1 (খাবার আগে।) \n
+        * Nidocard spray \n
+          2 puff S/L state and SOS \n
+          Or \n
+          Tab. GTN 0.5 mg \n
+          1 tab S/Lstate and SOS \n
+        * Inj. Cardinex60 mg \n
+          1 pfsS/CBD  3-8 days(Avg. 5 days) then \n
+          Tab.Warin 2.5 mg/5 mg \n
+          0 + 0 + 1 (6 months) \n
+        * Inj. Pathedin 100mg \n
+          75mg IV state and SOS \n
+          (সাধারণত BP কম থাকলে এবং Heart Rate কম থাকলে না দেয়াই ভাল) \n
+          + \n
+          Inj. Vergon 12.5mg \n
+          1 Amp IV state and SOS. \n
+          Or \n
+        * Inj. Morphin15mg/ml(Pathedin এর পরিবর্তে) \n
+          1 Amp.Diluted with 14ml D/W or N/S then give 2-4ml(Avg. 3) IV state and SOS \n
+          + \n
+          Inj. Vergon 12.5mg \n
+          1 Amp IV state and SOS. \n
+        * Tab.Metacard-mr 35mg \n
+          1 + 0 + 1  \n
+        * Tab. Betalock 50mg \n
+          ½ + 0 + ½ or 1 + 0 + 1 (Inf. MI এর ক্ষেত্রে না দেয়াই ভাল) \n
+        * Tab. Ramoril 2.5mg/5mg \n
+          0 + 0 + 1 \n
+        * Tab. Omidon 10mg \n
+          1 + 1 + 1 (খাবারের আগে) \n
+        * Syp.Entacyd-plus \n
+          2-3 TSF TDS \n
+     \t disease_investigation\n
+       \t\t •	ECG \n
+       \t\t •	CBC \n
+        \t\t•	Trop-I \n
+        \t\t•	CKMB \n
+        \t\t•	CXR
+\ndisease_advice
+        •	রোগীকে সম্পূর্ণ বিছানায় বিশ্রামে থাকতে হবে। \n
+        •	প্রসাব পায়খানা বিছানার মধ্যেই করানোর ব্যবস্থা করাতে হবে । \n
+        •	টয়লেট এ গিয়ে প্রসাব পায়খানা করা সম্পূর্ণ নিষিদ্ধ । \n
+        •	পায়খানা যেন নরম হয় সেইদিকে লক্ষ্য রাখতে হবে
+       disease_note\n
+        \t\t•	Rx of UA and AMI is same except Inj. STK + Inj.Cotson + Inj. Avil  + Inj. Pathedin + Inj. Vergon are given in AMI but not in UA. \n
+        \t\t•	If any contraindication of B-Blocker(Betalock) then we can use Tab. Cardizen 60 or 30 mg 1+1+1 \n
+        •	If patient unable to provide Enoxaparin we can use Inj. Heparin(5ml= 25mg) 1ml IV state slowly then 4ml within 5% DA 500ml IV at 5-8 drops per minute. \n
+        •	If any complains of headachedue to use of Monocardthen we use NidocardRtd \n
+        •	In STEMI>12 hrs and NSTEMI এ Inj. STK (Streptokinase)এ কোন রোল নাই , শুধুমাত্র InjCardinexদেয়া হয় । \n
+        •	In STEMI 12 hrsgive Inj. STK at first. Then after 4-6 hrs give Inj. Cardinex at tertiarycenter. Before giving Inj. STK, Inj. Cotson 1-2vial IV + Inj AVIL1-6 Amp IM given at least 30 minsprior. \n
+            * Inj.STK(1.5 million IU) \n
+            1 vial dissolvewith 10cc STK solution + 90ccN/Sor D/W IV at 100µ/d over 1 hour.
+
+        </item>
+
+
+<item> A is Clicked</item>
+        <item> B is Clicked</item>
+        <item> C is Clicked</item>
+        <item> D is Clicked</item>
+        <item> E is Clicked</item>
+        <item> F is Clicked</item>
+
+
+
+
+        </string-array>
+</resources>

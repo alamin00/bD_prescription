@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B610B"
+    tools:context="com.crackbrain.tanveen.bd_prescription.HOME">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:textColor="#FFFF00"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:text="   Be A Disease Expert"
+           android:id="@+id/tv" />
+
+
+   </LinearLayout>
+
+    <ImageView
+
+     android:layout_width="200dp"
+     android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+     android:layout_height="200dp"
+     android:gravity="center"
+
+     android:src="@drawable/lg"
+        android:layout_gravity="center" />
+
+    <TextView
+     android:layout_marginTop="30dp"
+     android:text="Sponsor"
+     android:textColor="#FFFF00"
+     android:id="@+id/tv2"
+     android:textSize="30sp"
+     android:gravity="center"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>

@@ -1,0 +1,586 @@
+<resources>
+    <string name="app_name">বিডি_প্রেসক্রিপশন</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="opendrawer">open</string>
+    <string name="closedrawer">close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_hpme">Hpme</string>
+    <string name="title_activity_home_">HOME_</string>
+    <string name="title_activity_gynecology_">Gynecology_</string>
+    <string name="title_activity_medicine_">Medicine_</string>
+    <string name="title_activity_surgery_">Surgery_</string>
+    <string name="title_activity_cardiology_details">CardiologyDetails</string>
+
+ <!--  1. pregnancy_followup-->
+
+    <string name="pregnancy_followup_disease_rx">
+        \n1st trimester: \n\n
+         * Tab. Folate 5mg \n
+          \t\t0 + 0 + 1 (চলবে) \n
+         * Tab. Mazic20mg \n
+          \t\t0 + 0 + 1 (চলবে) \n
+          \tOr \n
+         * Cap.ZNF(উপরের ২টার পরিবর্তে) \n
+          \t\t0 + 0 + 1 (চলবে) \n\n
+
+       2nd trimester: \n\n
+         * Tab. Folate 5mg \n
+          \t\t0 + 0 + 1 (চলবে) \n
+         * Tab. Mazic 20mg \n
+         \t\t0 + 0 + 1 (চলবে) \n
+          \tOr \n
+         * Cap. ZNF(উপরের ২টার পরিবর্তে) \n
+          \t\t0 + 0 + 1 (চলবে) \n
+         * Tab. Hemofix 275mg \n
+          \t\t0 + 0 + 1 (চলবে) \n
+          \tOr
+         * Cap. Zif(উপরের সবগুলোর পরিবর্তে) \n
+          \t\t0 + 0 + 1 (চলবে) \n\n
+
+        3rd trimester: \n\n
+         * 2nd trimester \n
+         * Tab. Acical 1250mg \n
+          \t\t1 + 0 + 0 (চলবে)\n\n
+
+
+</string>
+
+    <string name="pregnancy_followup_investigation">
+        \n\t* CBC with ESR \n
+        \t* Blood grouping \n
+        \t* USG of PP \n
+        \t* HBSag screening \n
+        \t* RBS\n
+</string>
+    <string name="pregnancy_followup_advice">
+
+        \n•	উঁচু হিল জুতা পরবেন না \n
+        \n•	ভাজাপোড়া খাবেন না \n
+        \n•	রিকশা দিয়া উঁচু নিচু রাস্তা দিয়ে যাতায়াত \n\tকরবেন না \n
+        \n•	কাশি,পায়খানা শক্ত, প্রশাব এ জ্বালাপোড়া \n\tযেন না হয় সেই দিকে লক্ষ্য রাখবেন\n\n
+
+
+    </string>
+
+    <string name="pregnancy_followup_note">
+        •	1st trimester এ Fe tab. Contraindicated, কারন এর teratogenic effect আছে \n\n
+        •	Vit. C, Fe tab.Absorption  এ সাহায্য করে, তাই Fe এর সাথে Vit. C দেয়া হয় \n\n
+        •	Fe tab. এর সাথে Cal. tab এবং Antacid tab. কখনই দেয়া যায়না কারন এরা Fe absorption করতে  দেয়না, Chelating করে \n\n
+        •	3rdtrimester এ ACE inhibitor, AldosteronAltagonist, ARB contraindicated.
+</string>
+
+
+
+<!--
+   2. PV Bleeding with pregnancy
+-->
+
+    <string name="pv_bleeding_with_pregnancy_Rx">
+
+        * Complete Bed Rest at left lateral position \n\n
+        * Infusion \n\n
+        * Inj. Algin 5mg/2ml \n\n
+          1 amp IV state and SOS \n\n
+        * Inj. Rolac 30mg \n\n
+          1 amp IM state and BD \n\n
+        * Inj.traxyl \n\n
+          2 amp IV state and 1 amp SOS \n\n
+        * Tab.Allygest 5mg \n
+          1 + 1 + 1 + 1 (1 month/2 months/whole pregnancy)\n\n
+</string>
+
+    <string name="pv_bleeding_with_pregnancy_investigation">
+
+       \n •	USG of PP\n\n
+
+    </string>
+
+    <string name="pv_bleeding_with_pregnancy_advice">
+
+      \n •	উঁচু হিল জুতা পরবেন না \n\n
+        •	ভাজাপোড়া খাবেন না \n\n
+        •	রিকশা দিয়া উঁচু নিচু রাস্তা দিয়ে যাতায়াত করবেন না \n\n
+        •	কাশি,পায়খানা শক্ত, প্রশাব এ জ্বালাপোড়া যেন না হয় সেই দিকে লক্ষ্য রাখবেন \n\n
+        •	সিঁড়ি বেয়ে উঠবেন না\n\n
+
+    </string>
+
+<!--
+    3.Acute Miocardial Infarction (AMI)
+-->
+
+   <string name="acute_miocardial_infarction_Rx">
+        \n* Diet : Liquid \n\n
+        * Complete(Absolute) Bed Rest. \n\n
+        * Propped up position \n\n
+        * Oxygen inhalation 4-6 L/m state and SOS \n\n
+        * Continuous cardiac monitoring by performing emergency ECG. \n\n
+        * Tab. Aspirin 75 mg \n\n
+          4 tabs state PO and then \n\n
+          0 + 1 + 0 or 1 + 0 + 1 (খাবার পর।) \n\n
+        * Tab. Clopid 75 mg \n\n
+          4 tabs state PO and then \n\n
+          0+1+0 (খাবার পর।) \n\n
+        * Tab. Pantonix 20 mg \n\n
+          1 tab state PO and then \n\n
+          1 + 0 + 1 (খাবার আগে।) \n\n
+        * TabAtova40mg \n\n
+          2 tabs state PO and then \n\n
+          0 + 0 + 1 (খাবার আগে।) \n\n
+        * Nidocard spray \n\n
+          2 puff S/L state and SOS \n\n
+          Or \n
+          Tab. GTN 0.5 mg \n
+          1 tab S/Lstate and SOS \n\n
+        * Inj. Cardinex60 mg \n\n
+          1 pfsS/CBD  3-8 days(Avg. 5 days) then \n\n
+          Tab.Warin 2.5 mg/5 mg \n\n
+          0 + 0 + 1 (6 months) \n\n
+        * Inj. Pathedin 100mg \n
+          75mg IV state and SOS \n
+          (সাধারণত BP কম থাকলে এবং Heart Rate কম থাকলে না দেয়াই ভাল) \n
+          + \n
+          Inj. Vergon 12.5mg \n
+          1 Amp IV state and SOS. \n
+          Or \n\n
+        * Inj. Morphin15mg/ml(Pathedin এর পরিবর্তে) \n
+          1 Amp.Diluted with 14ml D/W or N/S then give 2-4ml(Avg. 3) IV state and SOS \n
+          + \n
+          Inj. Vergon 12.5mg \n
+          1 Amp IV state and SOS. \n\n
+        * Tab.Metacard-mr 35mg \n
+          1 + 0 + 1  \n
+        * Tab. Betalock 50mg \n
+          ½ + 0 + ½ or 1 + 0 + 1 (Inf. MI এর ক্ষেত্রে না দেয়াই ভাল) \n\n
+        * Tab. Ramoril 2.5mg/5mg \n
+          0 + 0 + 1 \n\n
+        * Tab. Omidon 10mg \n
+          1 + 1 + 1 (খাবারের আগে) \n\n
+        * Syp.Entacyd-plus \n
+          2-3 TSF TDS \n\n
+</string>
+
+    <string name="acute_miocardial_infarction_investigation">
+       \n •	ECG \n
+        •	CBC \n
+        •	Trop-I \n
+        •	CKMB \n
+        •	CXR
+
+    </string>
+    <string name="acute_miocardial_infarction_advice">
+     \n\n   •	রোগীকে সম্পূর্ণ বিছানায় বিশ্রামে থাকতে হবে। \n\n
+        •	প্রসাব পায়খানা বিছানার মধ্যেই করানোর ব্যবস্থা করাতে হবে । \n\n
+        •	টয়লেট এ গিয়ে প্রসাব পায়খানা করা সম্পূর্ণ নিষিদ্ধ । \n\n
+        •	পায়খানা যেন নরম হয় সেইদিকে লক্ষ্য রাখতে হবে\n\n
+</string>
+
+    <string name="acute_miocardial_infarction_note">
+        \n\n•	Rx of UA and AMI is same except Inj. STK + Inj.Cotson + Inj. Avil  + Inj. Pathedin + Inj. Vergon are given in AMI but not in UA. \n\n
+        •	If any contraindication of B-Blocker(Betalock) then we can use Tab. Cardizen 60 or 30 mg 1+1+1 \n\n
+        •	If patient unable to provide Enoxaparin we can use Inj. Heparin(5ml= 25mg) 1ml IV state slowly then 4ml within 5% DA 500ml IV at 5-8 drops per minute. \n\n
+        •	If any complains of headachedue to use of Monocardthen we use NidocardRtd \n\n
+        •	In STEMI 12 hrs and NSTEMI এ Inj. STK (Streptokinase)এ কোন রোল নাই , শুধুমাত্র InjCardinexদেয়া হয় । \n\n
+        •	In STEMI 12 hrsgive Inj. STK at first. Then after 4-6 hrs give Inj. Cardinex at tertiarycenter. Before giving Inj. STK, Inj. Cotson 1-2vial IV + Inj AVIL1-6 Amp IM given at least 30 minsprior. \n\n
+            * Inj.STK(1.5 million IU) \n
+            1 vial dissolvewith 10cc STK solution + 90ccN/Sor D/W IV at 100µ/d over 1 hour.\n\n
+</string>
+
+<!--4.viral_hepatitis-->
+
+    <string name="viral_hepatitis_Rx">
+
+       \n * Diet : Normal \n\n
+        * Inf: 5% DA 1000ml/Hartman 1000ml \n
+          iv @20d/m (যদি বমি করে) \n\n
+        * Cap. Seclo 20mg \n
+          1 + 0 + 1 (খাবারের আগে) \n\n
+        * Tab. DonA 10mg \n
+          1 + 1 + 1 (খাবারের আগে) \n\n
+        * Syp. Avolac \n
+          ৩ চা চামচ দিনে ৩ বার \n\n
+        * inj. Konakion 10mg \n
+          1 amp.Iv stat and daily for 5 days \n \n
+
+        If itching presents then \n
+        * Tab. Ursocol 300mg \n
+          1 + 1 + 1 or \n\n
+        * Tab. Questarr \n
+          1 soccet 12 hourly or 8 hourly \n\n
+
+    </string>
+
+   <string name="viral_hepatitis_investigation">
+
+               \n* SGPT \n
+        * S. bilirubin \n
+        * PT \n
+        * HBSag \n
+        * USG of W/A special attention to HBS \n\n
+
+   </string>
+
+   <string name="viral_hepatitis_advice">
+
+      \n\n ১। সম্পূর্ণ বিছানায় বিশ্রাম এ থাকবেন \n\n
+        ২। কোন হাটা চলাফেরা বা অন্য কোন কাজ করা যাবেনা \n\n
+        ৩। দিনে কমপক্ষে ২ থেকে ৩ বার পায়খানা করা উপকারী \n\n
+        ৪। সাতদিন পরে দেখা করবেন এবং এর মাঝে অন্য কোন সমস্যা হলে দেখা করবেন \n\n
+
+
+   </string>
+
+   <string name="viral_hepatitis_note">
+
+       1. Acute viral hepatitis এ inj. Konakion দেয়া যায় PT ছাড়া। \n\n
+        2. When PT difference is more than 4 \n\n
+        3. No sedative, NSAID, Hypnotic \n\n
+
+   </string>
+
+   <!-- 5.Nephritic syndrome-->
+
+
+    <string name="nephritic_syndrome_Rx">
+
+           * Complete bed rest \n\n
+        * Diet: protein, salt and fruit restricted \n\n
+          Fluid –in first 24 hr 1/2L then PDO+500ml \n\n
+        * Inj. Lasix 20mg \n\n
+          1amp ivbd @8am and 4pm \n
+          Or \n
+          Tab. Lasix 40mg \n
+          1 tab @8am and 4Pm \n\n
+        * Tab.Penvis 250mg \n
+          1 + 1 + 1 + 1 \n
+          Or \n
+          Tab.Penvis-Ds 500mg \n
+          1 + 1 + 1 + 1 \n\n
+        * Tab.Camlodin 5mg \n
+          1 + 0 + 0 or  1 + 0 + 1 \n\n
+
+        (if HTN present) \n
+        * Maintain I/O chart \n\n
+        * Maintain B/P chart \n\n
+        * Maintain heat coagulation chart \n\n
+        * Monitor V/S and U/Oroutinely \n\n
+        * In suspected RPGN \n\n
+          Inf. N/S 1000ml \n
+          + \n
+          Inj. methylpred 1vial (1gm) \n
+          IV @30 d/m (3days) \n\n
+
+
+    </string>
+
+    <string name="nephritic_syndrome_investigation">
+
+      \n\n  * CBC \n
+        * Urin R/E \n
+        * S.albumin \n
+        * S.creatinine \n
+        * S.Urea \n
+        * S.Electrolytes
+    </string>
+    <string name="nephritic_syndrome_advice">
+
+
+
+    </string>
+     <string name="nephritic_syndrome_note">
+        \n\n Nephro Nephritic syndrome in which UTP >3gm/d \n
+        Urin R/E –RBC and RBC cast
+
+     </string>
+
+   <!-- // 6.migrane-->
+
+     <string name="migrane_Rx">
+ \n\n Acute Attack: \n
+        * Tab. Napa 500mg \n
+          2 Tabsstate PO then \n
+          1 + 1 + 1 or 2 + 2 + 2 (Until headache subsides. In mild to moderate headache.) \n
+          Or \n
+          Tab. Tufnil 200mg \n
+          1 Tab. state PO then \n
+          1 + 0 + 1 (Until headache subsides. In moderateto severe headache.) \n\n
+        If not relieve then \n\n
+        * Tab. Nomi 2.5mg \n
+          1 tab state PO and  1tab 1hour later (SOS) \n\n
+        * Tabomidon10mg / Stemetil 5mg \n
+          1 + 1 + 1 or 1 + 0 + 1 (খাবার আগে) 5 days \n\n
+        * Cap.Seclo 20mg \n
+          1 + 0 + 1(খাবার আগে)5 days \n\n
+        * Tab. Sedil5mg/Rivotril 0.5 mg \n
+          1 tab state PO and then \n
+          0 + 0 + 1 (5 days) \n\n\n
+
+        Severe Attack:Patient may need \n\n
+        * Inj. Torax 30mg \n
+          1 amp IM state \n
+        * Inj.Ranison 50mg \n
+          1 amp IV state \n
+        * Inj. Sedil 10mg \n
+          1 amp IM state \n\n\n
+
+        Prophylaxis: \n\n
+        * Tab. Pizo- A 0.5mg
+          0 + 0 + 1 (7-14 days/continue) \n
+          (After 7-14 days tab. Pizo A 1.5mg) \n\n
+        * Tab.Amit 25mg \n
+          0 + 0 + 1 (Continue) \n
+          or  \n
+          Tab. Pramin 25mg \n
+          0 + 0 + 1 (Continue) \n\n
+          Or/and \n
+        * Tab. Indever40mg \n
+          ½ + 0 + ½ or 1 + 0 + 1 (Continue)
+          Or \n
+          Tab.Flurizin 5mg/10mg \n
+          1 + 0 +0  or 0 + 0 + 1 (Continue) \n
+          Or \n
+          Tab.Topmate 25/50mg \n
+          ½ + 0 + ½ or  1 + 0 + 1 (Continue) \n\n
+
+     </string>
+       <string name="migrane_investigation">
+\n        * CT scan of Brain
+       </string>
+        <string name="migrane_advice">
+
+                    * লক্ষ্য রাখতে হবে কতদিন পরপর ব্যথা আসে এবং কোন বিশেষ সময়ে আসে । পরবর্তীতে সে আনুসারে আগে থেকেই সতর্কতামুলক ব্যবস্থা নিতে হবে ।\n\n
+
+        </string>
+    <string name="migrane_note">
+
+    </string>
+
+    <!--7. febrile_convulsion-->
+
+         <string name="febrile_convulsion_Rx">
+
+     \n\n* NPO till further order. \n\n
+        * Inj. Avlomox 125mg/5ml \n\n
+          20-40 mg/kgdaily in divided dose 8 hourly( 10 yrs) 7days \n\n
+        50-100 mg/kg daily in divided dose 8 hourly(>10 yrs) 7days \n\n
+        * Inj.Sedil10mg/2ml \n\n
+          ½ amp PR state and SOS \n
+        * Tab. Sedil5mg(Maintenance dose) \n
+          1mg/kg/day TDS (At least 2 days) \n\n
+        * Syp. Napa120mg/5ml \n
+          1-2 TSFTDS\n\n
+
+         </string>
+          <string name="febrile_convulsion_investigation">
+       \n * CBC \n
+        * CSF study \n
+        * CXR \n
+        * Urine R/E
+
+
+
+          </string>
+
+
+    <!--10.allergic-->
+      <string name="allergic_rhinitis_Rx">
+        \n\n* BeconaseNasal Spray \n
+          2 puffs in each nostril (6 months) \n\n
+        * Tab. M Cast 10mg \n
+          0 + 0 + 1 (1 month) \n\n
+        * Tab. Tofen 1mg \n
+          0 + 0 + 1 (1 month) \n\n
+
+
+      </string>
+
+    <!--
+           <string name="allergic_rhinitis_investigation">
+
+
+           </string>
+    -->
+    <!--
+            <string name="allergic_rhinitis_"></string>
+    -->
+
+  <string name="allergic_rhinitis_note">
+              \n•	AzelastinN.spray (Azelast/Snizex) \n
+        •	Adult + Child> 12 yrs : 2 puffs BD \n
+        •	Child (5-11 yrs): 1puff BD \n
+        •	Child 5: Not recommended
+
+  </string>
+
+
+
+
+    <string name="acute_appendicitis_Rx">
+          \n\n  * Diet:NPO-TFO \n\n
+        * NG Suction: ½ hourly if needed \n\n
+        * Inf.5% DNS(1500cc) \n\n
+          + \n
+          Inf.H/S(1000cc) \n
+          + \n
+          Inf.5% DA (500cc) \n
+          IV @ 30d/m \n\n
+        * Inj. Ceftron 1gm \n
+          1 vial IV state and BD (7 days) \n\n
+        * Inj. Filmet 500mg/100ml \n
+          1 bottle state and TDS (7 days) \n\n
+        * Inj. Gentil 80mg/2ml \n
+          1 amp IV state and TDS (3 days) \n\n
+        * Inj. Pathedin 100mg \n
+          75mg IM state and SOS \n
+          + \n
+          Inj.Vergon 12.5mg/ml \n
+          1amp IV state and SOS \n\n
+
+        * InjRolac 30mg \n
+          1 amp IM state and BD \n\n
+        * InjSeclo40mg \n
+          1 vial IV state and BD \n\n
+        * Inj. Emistat 8mg/4ml \n
+          1 amp IV state and BD \n\n
+        * Supp.Clofenac 50mg \n
+          1	stick PR state and SS \n\n
+        * Continuous catheterization \n\n
+
+
+
+
+</string>
+
+   <string name="acute_appendicitis_investigation">
+
+        \n•	CBC with ESR \n
+        •	Urine R/E \n
+        •	X-RAY of KUB region \n
+        •	USG of W/A
+
+   </string>
+
+
+
+ <string name="acute_appendiitis_note">
+           \n\n 1.	Ceftron এর পরিবর্তে moxacill, cephradAntibiotic যেতে পারে। \n\n
+        2.	Patient এর অবস্থা বেশি খারাপ হলে Gentin দেয়া যেতে পারে নাহলে দরকার নাই। \n\n
+        3.	Patient এর শ্বাস কষ্ট বা এজমা থাকলে Rolac, Clofenac এর পরিবর্তে central acting painkiller(Anadol) দিতে হবে ।\n\n
+
+ </string>
+
+
+
+
+    <!--8.depressive illnesss-->
+
+
+   <string name="depressive_illness_Rx">
+\n\nMild to moderate depressive illness: \n
+        Tab. Chear 50 mg \n
+        ½ + 0 + 0 (5 days) \n
+        1 + 0 + 0 (চলবে) \n\n
+
+        Tab. Rivotri l0.5mg \n
+        0 + 0 + 1 (চলবে) \n\n
+
+        Major depressive illness :\n
+        Tab. Esipram 10mg\n
+        ½ + ½ + 0 (7days)\n
+        1 + 1 + 0 (চলবে) \n\n
+
+        Tab. Zolium 0.5 mg or Lozicum 1mg \n
+        0 + 0 + 1 (চলবে) \n
+        Tab. Tryptim 25mg \n
+        0 + 0 + 1 (7 days) \n
+        0 + 0 + 2 (চলবে) \n
+
+   </string>
+
+       <string name="depressive_illness_investigation">
+
+                  \n No investigation needed.\n
+
+       </string>
+
+        <string name="depressive_illness_advice">
+      \n\n  ১। অবশ্যই রোগীকে এবং রোগীর অভিভাবকের সাথে Counseling করতে হবে। \n\n
+        ২। রোগীকে স্বাভাবিক জীবনে এবং যেসব কাজ করতে উৎসাহ পায় সেসব কাজ করার উপদেশ দিতে হবে। \n\n
+        ৩। বিভিন্ন কাজে ব্যস্ত থাকার পরামর্শ দিতে হবে।\n\n
+
+        </string>
+
+<string name="depressive_illness_note">
+\n\n1.	Severity অনুসারে dose কমবেশি করা যাবে । \n
+        2.	Tryptin অবশ্যইGuardian  এর সাথে counseling  করে দিতে হবে, কারন এগুলোর suicidal tendency থাকে। \n\n
+        3.	TCA(Tryptin) দ্বারা ঘুম হয় । এজন্য এগুলো রাত্রে  আর SSRI(Esipram,Chear) দ্বারা Insomnia হয় এজন্য সকালে দেয়া হয় । \n\n
+        4.	TCA cardiotoxicity, Glucoma, Prostatism এ Contraindicated. \n\n
+        5.	ভাল হয়ে যাওয়ার পর ৬ থেকে ১২ মাস পর্যন্ত ঔষধ চালাতে হবে । এরপর ধীরেধীরে tapering করতে হবে।\n
+
+</string>
+
+    <!--12.eye-->
+    <!--9.scabies-->
+
+
+
+
+  <string name="scabies_Rx">
+
+             \n\n * Noscabcream(Adult 30gm, Child:15gm) \n
+          সম্পূর্ণ শরীর ভালোভাবে পরিষ্কার ও শুষ্ক করে মুখ মন্ডল সহ চোখ ও নাখ ছাড়া সরাঅঙ্গেপ্রয়োগ করতে হবে।
+          ঔষধ প্রয়োগের ৮-১২ ঘন্টার মধ্যে সমস্ত শরীর ধুয়ে ফেলতে হবে। ২ বছরের কম বয়সের শিশুদের ক্ষেত্রে মুখ মন্ডলের
+          চারপাশ বাদে ব্যাবহার করতে হবে। \n
+          সঠিক প্রয়োগ মাত্রাঃ\n
+          ২-১২ মাসঃ ১ টি টিউবের ৮ ভাগের ১ ভাগ; \n
+          ১-৫ বছরঃ ১ টি টিউবের ৪ ভাগের ১ ভাগ; \n
+          ৬-১২ বছরঃ ১ টি টিউবের অর্ধেক; \n
+          ১২ বছরের অধিকঃ ১ টি সম্পূর্ন টিউব। \n
+          (Note: এরপরও যদি থাকে ৭ দিন পর আর একটা টিউব লাগাতে হবে।) \n\n
+
+        * Tab. Histacin 4mg \n
+          1 + 0 + 1 (14 days) \n\n
+        * Cap. Cephradin 500mg \n
+          1 + 1 + 1 + 1 (7 days) \n
+         (যদি Infection থাকে অথবা Infection হতে পারে মনে হয়) \n\n
+
+        Pregnant women এর ক্ষেত্রে:\n\n
+        * Cronix lotion \n
+          পরপর ৮-১০ দিন দিতে হবে।\n
+          অথবা \n
+          Noscab cream চার ঘন্টা পর্যন্ত রাখা যেতে পারে। \n
+          Antihistamin হিসেবে tab. Fexo120mg safe.\n\n
+
+
+  </string>
+
+   <string name="scabies_investigation">
+   \n\n No investigation needed.
+    </string>
+
+    <string name="scabies_advice">
+   \n\n  1.	হাত বা অন্য কোন কিছু দিয়ে চুল্কানো যাবেনা। \n\n
+        2.	বাসার অন্য সদস্যেরও একই সাথে চিকিৎসা  করাতে হবে। \n\n
+        3.	রুগীর বিছানা বালিশ সহ অন্যান্য কাপড়  চোপড় গরম পানিতে ভাল করে ধুয়ে ফেলতে হবে।\n\n
+
+
+    </string>
+
+     <string name="scabies_note">
+
+       \n\n  scabies এর দানাগুলো যদি লাল লাল হয় তাহলে আন্তিবিওতিচ এর ৭দিন পর সচাবিএক্স এর treatment শুরু করতে হবে।
+
+     </string>
+
+
+
+    <string name="title_activity_gynecology_check_activity">Gynecology_check_activity</string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F6CECE"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Depressive Illness"
+
+            android:textColor="#FF0000"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:background="#0101DF"
+            android:layout_height="5dp"/>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/textHeading"
+
+            android:text="Disease Rx:"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="95dp"
+            android:background="#585858"
+            android:layout_height="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/depressive_illness_Rx"
+            android:textColor="@color/txtColor"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Disease Investigation:"
+            android:textSize="18sp"
+            android:textColor="@color/textHeading"
+
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="175dp"
+            android:background="#585858"
+            android:layout_height="3dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/depressive_illness_investigation"
+            android:textColor="@color/txtColor"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Disease Advice:"
+            android:textSize="18sp"
+            android:textColor="@color/textHeading"
+
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="125dp"
+            android:background="#585858"
+            android:layout_height="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/depressive_illness_advice"
+            android:textColor="@color/txtColor"
+
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="disease Note:"
+            android:textSize="18sp"
+            android:textColor="@color/textHeading"
+
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="115dp"
+            android:background="#585858"
+            android:layout_height="3dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/depressive_illness_note"
+            android:textColor="@color/txtColor"
+
+            android:layout_height="wrap_content" />
+
+
+
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:background="#0101DF"
+            android:layout_height="5dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
