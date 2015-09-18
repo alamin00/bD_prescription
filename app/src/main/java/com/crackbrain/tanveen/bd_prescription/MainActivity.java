@@ -54,7 +54,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
         ArrayList<String> navArray = new ArrayList<String>();
 
         navArray.add("Home");
-        navArray.add("Search AllDisease");
+        navArray.add("Search All Disease");
         navArray.add("Gynecology");
         navArray.add("Medicine");
         navArray.add("Surgery");

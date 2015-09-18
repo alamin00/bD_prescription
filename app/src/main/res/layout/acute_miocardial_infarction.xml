@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="#F6CECE"
+    android:background="@drawable/bc"
     android:padding="10dp"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:id="@+id/scrollView">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,72 +30,92 @@
 
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
             android:textSize="18sp"
-            android:textColor="@color/textHeading"
 
+            android:textColor="@color/textHeading"
+            android:id="@+id/tv_disease_rx_title"
             android:text="Disease Rx:"
             android:layout_height="wrap_content" />
         <View
-            android:layout_width="95dp"
+            android:layout_width="match_parent"
             android:background="#585858"
             android:layout_height="3dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:textColor="@color/txtColor"
+            android:background="#D8D8D8"
+            android:padding="5dp"
+            android:id="@+id/tv_disease_rx"
             android:text="@string/acute_miocardial_infarction_Rx"
             android:layout_height="wrap_content" />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tv_disease_investigation_title"
             android:text="Disease Investigation:"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
-
+            android:layout_marginTop="15dp"
             android:layout_height="wrap_content" />
         <View
-            android:layout_width="175dp"
+            android:layout_width="match_parent"
             android:background="#585858"
             android:layout_height="3dp"/>
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:textColor="@color/txtColor"
+            android:background="#D8D8D8"
+            android:padding="5dp"
+            android:id="@+id/tv_disease_investigation_details"
             android:text="@string/acute_miocardial_infarction_investigation"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:text="Disease Advice:"
+            android:layout_marginTop="15dp"
+
+            android:id="@+id/tv_disease_advice_title"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
         <View
-            android:layout_width="125dp"
+            android:layout_width="match_parent"
             android:background="#585858"
             android:layout_height="3dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#D8D8D8"
+            android:padding="5dp"
+            android:id="@+id/tv_disease_advice_details"
             android:text="@string/acute_miocardial_infarction_advice"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:text="disease Note:"
+            android:layout_width="match_parent"
+            android:text="Disease Note:"
+            android:layout_marginTop="15dp"
+
+            android:id="@+id/tv_disease_note_title"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
         <View
-            android:layout_width="115dp"
+            android:layout_width="match_parent"
             android:background="#585858"
             android:layout_height="3dp"/>
         <TextView
             android:layout_width="wrap_content"
+            android:background="#D8D8D8"
+            android:padding="5dp"
+            android:id="@+id/tv_disease_note_details"
             android:text="@string/acute_miocardial_infarction_note"
             android:textColor="@color/txtColor"
             android:layout_height="wrap_content" />
@@ -100,11 +123,7 @@
 
 
 
-        <View
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:background="#0101DF"
-            android:layout_height="5dp"/>
+
 
     </LinearLayout>
 

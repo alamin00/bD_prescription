@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
-
+            android:id="@+id/tv_disease_rx_title"
             android:text="Disease Rx:"
             android:layout_height="wrap_content" />
         <View
@@ -43,11 +43,13 @@
             android:layout_width="wrap_content"
             android:textColor="@color/txtColor"
             android:text="@string/eye_1"
+            android:id="@+id/tv_disease_rx"
             android:layout_height="wrap_content" />
         <TextView
             android:layout_width="wrap_content"
             android:text="Disease Investigation:"
             android:textSize="18sp"
+            android:id="@+id/tv_disease_investigation_title"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
@@ -58,16 +60,18 @@
 
 
         <TextView
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
-            android:text=""
+            android:text="No need any Investigation"
             android:textColor="@color/txtColor"
-
+            android:id="@+id/tv_disease_investigation_details"
             android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
             android:text="Disease Advice:"
             android:textSize="18sp"
+            android:id="@+id/tv_disease_advice_title"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
@@ -78,9 +82,10 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text=""
+            android:text="No advice"
             android:textColor="@color/txtColor"
-
+            android:id="@+id/tv_disease_advice_details"
+            android:layout_marginTop="10dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -88,7 +93,7 @@
             android:text="disease Note:"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
-
+            android:id="@+id/tv_disease_note_title"
             android:layout_height="wrap_content" />
         <View
             android:layout_width="115dp"
@@ -96,7 +101,9 @@
             android:layout_height="3dp"/>
         <TextView
             android:layout_width="wrap_content"
-            android:text=""
+            android:text="NO need "
+            android:id="@+id/tv_disease_note_details"
+            android:layout_marginTop="10dp"
             android:textColor="@color/txtColor"
 
             android:layout_height="wrap_content" />

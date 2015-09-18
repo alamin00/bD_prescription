@@ -61,7 +61,7 @@ public class SearchAllDisease extends Fragment  {
         String[] disease = {
 
                 //start with A
-                "Acute Miocardial Infarction(AMI)","allergic rhinitis","acute appendicitis",
+                "Acute Miocardial Infarction(AMI)","Allergic Rhinitis","Acute Appendicitis",
 
                 //start with D
                 "Depressive Illness",
@@ -90,8 +90,11 @@ public class SearchAllDisease extends Fragment  {
 
         };
 
-         diseaseString = new ArrayAdapter<String>(getActivity(),
+         /*diseaseString = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_activated_1,disease);
+*/
+
+        diseaseString = new RowAdapter(getContext(),disease);
 
         listView.setAdapter(diseaseString);
 
@@ -114,6 +117,8 @@ public class SearchAllDisease extends Fragment  {
                // System.out.println(view1+" --postion");
 
                 String str=listView.getItemAtPosition(position).toString();
+
+             //  view.setSelected(true);
                 Toast.makeText(getActivity()," "+str,Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getActivity(), Details.class);
                 i.putExtra("position",""+str);

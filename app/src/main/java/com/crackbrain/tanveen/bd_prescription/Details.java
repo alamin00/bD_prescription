@@ -2,25 +2,26 @@ package com.crackbrain.tanveen.bd_prescription;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import java.io.IOError;
 
 
 public class Details extends Activity {
+
+TextView tvDiseaseRX,tvInvestigation,tvAdvice,tvNote;
+
+
+   //Typeface font = Typeface.createFromAsset(getAssets(), "SolaimanLipi_20-04-07.ttf");
 
 
     String[] disease = {
 
             //start with A
-            "Acute Miocardial Infarction(AMI)","allergic rhinitis","acute appendicitis",
+            "Acute Miocardial Infarction(AMI)","Allergic Rhinitis","Acute Appendicitis",
 
             //start with D
             "Depressive Illness",
@@ -54,6 +55,12 @@ public class Details extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Intent i = getIntent();
+
+        /*tvDiseaseRX.setTypeface(font); // for Solaiman Lipi
+        tvInvestigation.setTypeface(font);
+        tvAdvice.setTypeface(font);
+        tvNote.setTypeface(font);
+*/
         String itemname = i.getExtras().getString("position");
         int iterator=0;
 
@@ -72,7 +79,10 @@ public class Details extends Activity {
 /*
        int a=0;
         int p=0;
+
 */
+
+
 
         switch (iterator) {
             case 0:
@@ -183,9 +193,10 @@ public class Details extends Activity {
 
 
         }
+initialize();
     }
 
-    public String replace(String str, int index, char replace){
+   /* public String replace(String str, int index, char replace){
         if(str==null){
             return str;
         }else if(index<0 || index>=str.length()){
@@ -194,10 +205,60 @@ public class Details extends Activity {
         char[] chars = str.toCharArray();
         chars[index] = replace;
         return String.valueOf(chars);
-    }
+    }*/
+
+   /* private void message(String s1){
+        Toast.makeText(this,""+s1,Toast.LENGTH_LONG).show();
+    }*/
+
+    View.OnClickListener myClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()){
+
+                case  R.id.tv_disease_rx_title:
+                    tvDiseaseRX.setVisibility(tvDiseaseRX.isShown() ? View.GONE : View.VISIBLE);
+                    break;
+
+                case  R.id.tv_disease_investigation_title:
+                    tvInvestigation.setVisibility(tvInvestigation.isShown() ? View.GONE : View.VISIBLE);
+                    break;
+
+                case  R.id.tv_disease_advice_title:
+                    tvAdvice.setVisibility(tvAdvice.isShown() ? View.GONE : View.VISIBLE);
+                    break;
+
+                case  R.id.tv_disease_note_title:
+                    tvNote.setVisibility(tvNote.isShown() ? View.GONE : View.VISIBLE);
+                    break;
+
+
+            }
+        }
+    };
 
     private void initialize() {
 
+
+        findViewById(R.id.tv_disease_rx_title).setOnClickListener(myClick);
+        findViewById(R.id.tv_disease_investigation_title).setOnClickListener(myClick);
+        findViewById(R.id.tv_disease_advice_title).setOnClickListener(myClick);
+        findViewById(R.id.tv_disease_note_title).setOnClickListener(myClick);
+
+
+
+
+        tvDiseaseRX = (TextView) findViewById(R.id.tv_disease_rx);
+        tvDiseaseRX.setVisibility(View.GONE);
+
+        tvInvestigation = (TextView)findViewById(R.id.tv_disease_investigation_details);
+        tvInvestigation.setVisibility(View.GONE);
+
+        tvAdvice = (TextView)findViewById(R.id.tv_disease_advice_details);
+        tvAdvice.setVisibility(View.GONE);
+
+        tvNote = (TextView)findViewById(R.id.tv_disease_note_details);
+        tvNote.setVisibility(View.GONE);
     }
 
 

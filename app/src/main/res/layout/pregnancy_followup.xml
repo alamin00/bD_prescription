@@ -33,6 +33,7 @@
             android:textColor="@color/textHeading"
 
             android:text="Disease Rx:"
+            android:id="@+id/tv_disease_rx_title"
             android:layout_height="wrap_content" />
         <View
             android:layout_width="95dp"
@@ -43,11 +44,14 @@
             android:layout_width="wrap_content"
             android:text="@string/pregnancy_followup_disease_rx"
             android:textColor="@color/txtColor"
+            android:id="@+id/tv_disease_rx"
             android:layout_height="wrap_content" />
         <TextView
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:text="Disease Investigation:"
             android:textSize="18sp"
+            android:id="@+id/tv_disease_investigation_title"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
@@ -59,6 +63,7 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:id="@+id/tv_disease_investigation_details"
             android:text="@string/pregnancy_followup_investigation"
             android:textColor="@color/txtColor"
             android:layout_height="wrap_content" />
@@ -68,7 +73,7 @@
             android:text="Disease Advice:"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
-
+            android:id="@+id/tv_disease_advice_title"
             android:layout_height="wrap_content" />
         <View
             android:layout_width="125dp"
@@ -78,12 +83,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:textColor="@color/txtColor"
+            android:id="@+id/tv_disease_advice_details"
             android:text="@string/pregnancy_followup_advice"
             android:layout_height="wrap_content" />
 
         <TextView
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:text="disease Note:"
+            android:id="@+id/tv_disease_note_title"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
 
@@ -94,7 +102,8 @@
             android:layout_height="3dp"/>
         <TextView
             android:layout_width="wrap_content"
-android:textColor="@color/txtColor"
+            android:textColor="@color/txtColor"
+            android:id="@+id/tv_disease_note_details"
             android:text="@string/pregnancy_followup_note"
             android:layout_height="wrap_content" />
 

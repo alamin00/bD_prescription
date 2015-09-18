@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic"
-        android:label="বিডি_প্রেসক্রিপশন"
+        android:label="বিডি প্রেসক্রিপশন"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".splash_screen"
@@ -18,7 +18,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="বিডি_প্রেসক্রিপশন" >
+            android:label="বিডি প্রেসক্রিপশন" >
         </activity>
         <activity
             android:name=".CardiologyDetails"

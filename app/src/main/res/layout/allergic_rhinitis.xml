@@ -30,7 +30,9 @@
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:textSize="18sp"
+
             android:textColor="@color/textHeading"
+            android:id="@+id/tv_disease_rx_title"
 
             android:text="Disease Rx:"
             android:layout_height="wrap_content" />
@@ -41,6 +43,8 @@
 
         <TextView
             android:layout_width="wrap_content"
+
+            android:id="@+id/tv_disease_rx"
             android:text="@string/allergic_rhinitis_Rx"
             android:textColor="@color/txtColor"
             android:layout_height="wrap_content" />
@@ -49,7 +53,7 @@
             android:text="Disease Investigation:"
             android:textSize="18sp"
             android:textColor="@color/textHeading"
-
+            android:id="@+id/tv_disease_investigation_title"
             android:layout_height="wrap_content" />
         <View
             android:layout_width="175dp"
@@ -59,15 +63,17 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text=""
+            android:layout_marginTop="10dp"
+            android:text="No need any Investigation"
             android:textColor="@color/txtColor"
-
+             android:id="@+id/tv_disease_investigation_details"
             android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
             android:text="Disease Advice:"
             android:textSize="18sp"
+            android:id="@+id/tv_disease_advice_title"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
@@ -77,16 +83,18 @@
             android:layout_height="3dp"/>
 
         <TextView
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
-            android:text=""
+            android:text="No need any advice"
             android:textColor="@color/txtColor"
-
+            android:id="@+id/tv_disease_advice_details"
             android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
             android:text="disease Note:"
             android:textSize="18sp"
+            android:id="@+id/tv_disease_note_title"
             android:textColor="@color/textHeading"
 
             android:layout_height="wrap_content" />
@@ -98,7 +106,7 @@
             android:layout_width="wrap_content"
             android:text="@string/allergic_rhinitis_note"
             android:textColor="@color/txtColor"
-
+            android:id="@+id/tv_disease_note_details"
             android:layout_height="wrap_content" />
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="#F6CECE"
+    android:background="#8A4B08"
     android:padding="10dp"
     android:layout_height="match_parent">
 
@@ -30,8 +30,8 @@
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:textSize="18sp"
-            android:textColor="@color/textHeading"
-
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv_disease_rx_title"
             android:text="Disease Rx:"
             android:layout_height="wrap_content" />
         <View
@@ -43,14 +43,17 @@
             android:layout_width="wrap_content"
             android:text="@string/scabies_Rx"
             android:textColor="@color/txtColor"
+            android:id="@+id/tv_disease_rx"
             android:layout_height="wrap_content" />
         <TextView
             android:layout_width="wrap_content"
             android:text="Disease Investigation:"
-            android:textSize="18sp"
-            android:textColor="@color/textHeading"
 
-            android:layout_height="wrap_content" />
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv_disease_investigation_title"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
         <View
             android:layout_width="175dp"
             android:background="#585858"
@@ -61,14 +64,16 @@
             android:layout_width="wrap_content"
             android:text="@string/scabies_investigation"
             android:textColor="@color/txtColor"
-
+            android:id="@+id/tv_disease_investigation_details"
             android:layout_height="wrap_content" />
 
         <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_disease_advice_title"
             android:layout_width="wrap_content"
             android:text="Disease Advice:"
             android:textSize="18sp"
-            android:textColor="@color/textHeading"
+            android:textColor="#FFFFFF"
 
             android:layout_height="wrap_content" />
         <View
@@ -78,6 +83,7 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:id="@+id/tv_disease_advice_details"
             android:text="@string/scabies_advice"
             android:textColor="@color/txtColor"
 
@@ -85,9 +91,11 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_disease_note_title"
             android:text="disease Note:"
             android:textSize="18sp"
-            android:textColor="@color/textHeading"
+            android:textColor="#FFFFFF"
 
             android:layout_height="wrap_content" />
         <View
@@ -96,6 +104,7 @@
             android:layout_height="3dp"/>
         <TextView
             android:layout_width="wrap_content"
+            android:id="@+id/tv_disease_note_details"
             android:text="@string/scabies_note"
             android:textColor="@color/txtColor"
 

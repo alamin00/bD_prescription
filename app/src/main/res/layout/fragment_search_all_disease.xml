@@ -24,7 +24,7 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FACC2E"
+        android:background="#000000"
 
         android:id="@+id/allDiseaseListView">
 
